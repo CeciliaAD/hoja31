@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Alta usuario</title>
+	<script type="text/javascript" src="/src/validarAlta.js" async></script>
+</head>
+<body>
+	<form action="/altaUsuario" method="POST">
+		<p>
+			<label for="id_nombre">Nombre: </label>
+			<input type="text" name="nombre" id="id_nombre" required>
+		</p>
+		<p>
+			<label for="id_apellido">Apellido: </label>
+			<input type="text" name="apellido" id="id_apellido" required>
+		</p>
+		<p>
+			<label for="id_email">Email: </label>
+			<input type="text" name="email" id="id_email" required>
+		</p>
+		<p>
+			<label for="id_usuario">Usuario: </label>
+			<input type="text" name="usuario" id="id_usuario" required>
+		</p>
+		<p>
+			<label for="id_password">Password: </label>
+			<input type="text" name="password" id="id_password" required>
+		</p>
+		<p>
+			<input type="submit" id="botonSubmit" disabled>
+		</p>
+	</form>
+</body>
+</html>
